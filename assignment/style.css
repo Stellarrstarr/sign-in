@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./image/river.jpg), no-repeat;
+    height: 100vh;
+    width: 40%;
+    padding: 0px 30px 20px 30px;
+    margin: 50px auto;
+}
+
+body .sign {
+    color: white;
+    text-align: center;
+    padding: 15px 0px 23px;
+}
+
+.container {
+
+    padding: 0px 30px 10px 30px;
+    width: 100%;
+    background-color: #8306457c;
+}
+
+.form_container .text {
+    color: white;
+    text-align: center;
+    padding: 40px 0px 30px 0px;
+}
+
+.input_batch {
+    position: relative;
+}
+
+.input_batch .icon {
+    position: absolute;
+    top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.input_batch input {
+    width: 100%;
+    margin-bottom: 18px;
+    height: 35px;
+    padding: 0px 29px;
+    outline: none;
+}
+
+.input_sub {
+    display: flex;
+    justify-content: center;
+}
+
+.input_sub input {
+    width: 30%;
+    padding: 10px 0px;
+    color: white;
+    border: none;
+    background-color: hsla(345, 89%, 42%, 0.918);
+    font-size: 16px;
+    cursor: pointer;
+}
